@@ -22,7 +22,9 @@
                 "src/controllers/",
                 "src/interfaces/",
                 "src/exceptions/",
-                "src/models/"
+                "src/models/",
+                "src/repositories/",
+                "src/traits/"
             ]
         }
     },
