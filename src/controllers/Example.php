@@ -6,6 +6,6 @@ class Example
 {
     public function render($args)
     {
-        View::render('/example.html.twig', []);
+        Twig::render('/example.html.twig', []);
     }
 }
