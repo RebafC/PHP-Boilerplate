@@ -25,10 +25,10 @@ may be similar to those you find in other starter PHP repositories.
 
 # Installation
 Clone the repository to a development envirnment
-. cd [local root directory] e.g. c:\wamp64\www
-. git clone https://github.com/RebafC/PHP-Boilerplate.git
-. rename directoryPHP-Boilerplate to your proect name e.g MyProject
-. change git config to point to your own project (there may be a git command but I manually changed the .git/config file)
-. possibly create a local "bare" repository or a repository at github or other cloud based git service
-. get developing
+- cd [local root directory] e.g. c:\wamp64\www
+- git clone https://github.com/RebafC/PHP-Boilerplate.git
+- rename directoryPHP-Boilerplate to your proect name e.g MyProject
+- change git config to point to your own project (there may be a git command but I manually changed the .git/config file)
+- possibly create a local "bare" repository or a repository at github or other cloud based git service
+- get developing
 
