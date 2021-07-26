@@ -1,0 +1,46 @@
+{
+    "name": "rebafc/php-boilerplate",
+    "description": "Simple boilerplate for PHP Application",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3",
+        "altorouter/altorouter": "^2.0",
+        "gabordemooij/redbean": "dev-master",
+        "plasticbrain/php-flash-messages": "^1.0",
+        "tracy/tracy": "^2.8",
+        "twig/twig": "^3.0"
+    },
+    "require-dev": {
+        "approvals/approval-tests": "^1.4",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "src/classes/",
+                "src/controllers/",
+                "src/interfaces/",
+                "src/exceptions/",
+                "src/models/"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/phpunit"
+        }
+    },
+    "authors": [
+        {
+            "name": "rebafc",
+            "email": "chris@midboh.com.au"
+        }
+    ],
+    "scripts": {
+        "create": "create.bat"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

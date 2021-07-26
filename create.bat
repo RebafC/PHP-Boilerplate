@@ -1,0 +1,16 @@
+@echo off
+mkdir .notes
+mkdir .vscode
+mkdir public_html
+mkdir public_html\css
+mkdir public_html\js
+mkdir src
+mkdir src\classes
+mkdir src\controllers
+mkdir src\exceptions
+mkdir src\interfaces
+mkdir src\models
+mkdir src\repositories
+mkdir src\templates
+mkdir tests
+mkdir tests\phpunit
