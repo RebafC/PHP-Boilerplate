@@ -1,3 +1,4 @@
 vendor
+create.bat
 *.cache
 *.zip
