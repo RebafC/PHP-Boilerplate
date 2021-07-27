@@ -30,7 +30,7 @@ Clone the repository to a development envirnment
 - rename directoryPHP-Boilerplate to your project name e.g MyProject
 - change git config to point to your own project (there may be a git command but I manually changed the .git/config file)
 - possibly create a local "bare" repository or a repository at github or other cloud based git service
-- remove / add projects to the composer file as you require
+- remove / add projects to composer.json as you require
 - run "composer install"
 - set basepath correctly in index.php
 - get developing
