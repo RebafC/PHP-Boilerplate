@@ -7,7 +7,7 @@ class Home
     public function render($args)
     {
         Twig::render(
-            '/main.html.twig',
+            '/main.twig',
             [
                 'title' => 'Hello Brian example',
                 'content' => 'hello  brian',
