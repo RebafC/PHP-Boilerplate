@@ -7,7 +7,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 Debugger::enable();
 
 $router = new AltoRouter();
-$router->setBasePath('/phpBoilerplate/public_html');
+// $router->setBasePath('/phpBoilerplate/public_html');
 $router->addRoutes(
     [
         ['GET',  '/', 'App\Home#render', 'home'],
