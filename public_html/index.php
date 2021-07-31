@@ -31,4 +31,4 @@ if (!is_callable([$controller, $action])) {
 }
 $obj = new $controller($router);
 
-echo call_user_func_array([$obj, $action], [$match['params'], $twig]);
+echo call_user_func_array([$obj, $action], [$match['params']]);
