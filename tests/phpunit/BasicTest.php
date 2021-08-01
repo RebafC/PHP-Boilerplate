@@ -13,9 +13,9 @@ class BasicTest extends TestCase
     }
 
     /**
-     * test
+     * @test
      */
-    public function testBasic()
+    public function Basic()
     {
         $this->assertEquals(true, false, 'what else did you expect?');
     }
