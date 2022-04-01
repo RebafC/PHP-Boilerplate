@@ -27,7 +27,7 @@ may be similar to those you find in other starter PHP repositories.
 Clone the repository to a development envirnment
 - cd [local root directory] e.g. c:\wamp64\www
 - git clone https://github.com/RebafC/PHP-Boilerplate.git
-- rename directoryPHP-Boilerplate to your project name e.g MyProject
+- rename directory PHP-Boilerplate to your project name e.g MyProject
 - change git config to point to your own project (there may be a git command but I manually changed the .git/config file)
 - possibly create a local "bare" repository or a repository at github or other cloud based git service
 - remove / add projects to composer.json as you require
