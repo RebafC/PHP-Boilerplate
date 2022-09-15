@@ -25,7 +25,7 @@ may be similar to those you find in other starter PHP repositories.
 
 # Installation
 Clone the repository to a development envirnment
-- cd [local root directory] e.g. c:\wamp64\www
+- cd [local root directory] e.g. c:\neard\www
 - git clone https://github.com/RebafC/PHP-Boilerplate.git
 - rename directory PHP-Boilerplate to your project name e.g MyProject
 - change git config to point to your own project (there may be a git command but I manually changed the .git/config file)
