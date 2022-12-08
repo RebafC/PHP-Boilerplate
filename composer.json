@@ -20,8 +20,8 @@
             "App\\": [
                 "src/classes/",
                 "src/controllers/",
-                "src/interfaces/",
                 "src/exceptions/",
+                "src/interfaces/",
                 "src/models/",
                 "src/repositories/",
                 "src/traits/"
