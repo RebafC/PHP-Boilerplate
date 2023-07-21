@@ -33,9 +33,6 @@
             "email": "chris@midboh.com.au"
         }
     ],
-    "scripts": {
-        "create": "create.bat"
-    },
     "config": {
         "sort-packages": true
     }
