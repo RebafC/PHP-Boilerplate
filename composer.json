@@ -38,6 +38,7 @@
         "sort-packages": true
     },
     "scripts": {
-        "rector": "vendor/bin/rector --dry-run"
+        "rector-dr": "vendor/bin/rector --dry-run",
+        "rector":    "vendor/bin/rector"
     }
 }
