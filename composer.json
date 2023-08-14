@@ -12,8 +12,9 @@
         "twig/twig": "^3.0"
     },
     "require-dev": {
-        "approvals/approval-tests": "^1.4",
-        "phpunit/phpunit": "^9.0"
+        "approvals/approval-tests": "dev-Main",
+        "phpunit/phpunit": "^9",
+        "rector/rector": "dev-main"
     },
     "autoload": {
         "psr-4": {
@@ -35,5 +36,8 @@
     ],
     "config": {
         "sort-packages": true
+    },
+    "scripts": {
+        "rector": "vendor/bin/rector"
     }
 }

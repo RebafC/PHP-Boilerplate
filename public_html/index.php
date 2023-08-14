@@ -27,7 +27,7 @@ if (!$match) {
     header('Location: ' . $router->generate('notfound') . '/');
 }
 
-list($controller, $action) = explode('#', $match['target']);
+[$controller, $action] = explode('#', $match['target']);
 if (!is_callable([$controller, $action])) {
     die('Error: Cannot call ' . $controller . '#' . $action);
     /* possibly throw a 404 error */
