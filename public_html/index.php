@@ -32,6 +32,7 @@ if (!is_callable([$controller, $action])) {
     die('Error: Cannot call ' . $controller . '#' . $action);
     /* possibly throw a 404 error */
 }
+
 $obj = new $controller($router);
 
 echo call_user_func_array([$obj, $action], [$match['params']]);
