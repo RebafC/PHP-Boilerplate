@@ -1,6 +1,8 @@
 <?php
 
-namespace App;
+namespace App\Classes;
+
+use App\Interfaces\View;
 
 class Twig implements View
 {

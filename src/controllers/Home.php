@@ -2,6 +2,8 @@
 
 namespace App\Contollers;
 
+use App\Classes\Twig;
+
 class Home
 {
     public function render($args): void
